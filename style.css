@@ -1,0 +1,20 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+ div{
+	border:2px solid black;
+	min-height:30px;
+	width:300px;
+	margin:10px;
+	border-radius:10px;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+ }
+ hr{
+	 margin-top:30px;
+ }

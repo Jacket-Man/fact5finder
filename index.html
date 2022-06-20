@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Learning Javascript!</title>
+    <link rel="stylesheet" href="style.css">  
+  </head>
+  
+  <body>
+	<!-- simple alerts -->
+	<h3>Simple Alerts:</h3>
+    <button type="button" onclick="hello()">Hello World</button>
+	<button type="button" id="showx">Show variable x</button>
+	
+	<hr>
+	<!-- changing the content on the page -->
+	<h3>Change Page Content:</h3>
+	<button type="button" id="xbutton">Show X Below</button>
+	<div id="xbox">x will appear here</div>
+	
+	<hr>
+	<!-- simple addition calculator -->
+	<form id="addform">
+		<input type="number" name="a" class="inputbutton" value="0">
+		<input type="number" name="b" class="inputbutton" value="0">
+		<input type="button" name="btn" value="ADD">
+	</form>
+	<div id="additionresult"></div>
+	
+	<hr>
+	<!-- change page style -->
+	<h3>Change Page Style:</h3>
+	<form id="styleform">
+		<input type="button" name="bgred"	onclick="red()" value="Make Background Red">
+		<input type="button" name="subsaqua" value="Make SubHeadings Aqua">
+		<input type="button" name="backimage" value="Add Background Image">
+	</form>
+	
+	<hr>
+	<!-- change page style -->
+	<h3>Challenge:</h3>
+	
+	<!-- hypot -->
+	<form id="hy">
+		<input type="number" name="x" class="inputbutton" value="0">
+		<input type="number" name="y" class="inputbutton" value="0">
+		<input type="button" name="hyb" value="hypo">
+	</form>
+	<div id="hyr"></div>
+	
+	<!-- javascript pointer goes here: -->
+	<script type="text/javascript" src="script.js"></script>
+  </body>
+  
+</html>
